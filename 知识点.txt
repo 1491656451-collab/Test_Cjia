@@ -1,0 +1,13 @@
+static_cast<type>(var)显式转换
+dynamic_cast<type*>(),指针类型转换
+back_type operator+(var){}运算符重载
+friend ostream& operator<</>>(var){}对输入输出进行重载
+智能指针
+unique_ptr/shared_ptr<class>var(new class());
+auto var=make_unique/make_shared<class>();
+[捕获参数](int a, int b)type{}; Lambda表达式
+function<返回类型(输入类型)>name;可将函数赋给name直接用name调用功能
+template<typename T1, typename T2>;此时T为一个函数模板
+auto getMax(T1 a, T2 b){return a>b? a: b;}
+如果加上T1 = int，说明T1默认为int；里面还可带上其他参数
+map<string, int>;存储键值对
